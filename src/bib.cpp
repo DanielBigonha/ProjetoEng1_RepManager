@@ -29,3 +29,7 @@ int calcularFibonacci(int n) {
     }
     return b;
 }
+
+std::string helloWorld() {
+    return "Hello World";
+}

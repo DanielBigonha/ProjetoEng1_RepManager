@@ -20,10 +20,17 @@ void testeCalcularFibonacci() {
     std::cout << "calcularFibonacci passou nos testes!" << std::endl;
 }
 
+void testeHelloWorld() {
+    std::cout << "Testando helloWorld..." << std::endl;
+    assert(helloWorld() == "Hello World");
+    std::cout << "helloWorld passou nos testes!" << std::endl;
+}
+
 int main() {
     std::cout << "Iniciando Testes Regressivos..." << std::endl;
     testeCalcularFatorial();
     testeCalcularFibonacci();
+    testeHelloWorld();
     std::cout << "Todos os testes passaram!" << std::endl;
     return 0;
 }
