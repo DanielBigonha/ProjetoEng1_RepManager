@@ -1,0 +1,13 @@
+# Ignorar arquivos compilados
+bin/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Ignorar arquivos do sistema operacional e IDEs
+.DS_Store
+.vscode/
+.idea/
+*.swp
